@@ -1,0 +1,275 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-repeat: repeat-x;
+	margin: 0px;
+	background-color: #f6f6f6;
+	padding: 0px;
+}
+#top {
+	height: 165px;
+	width: 1000px;
+	background-image: url(../images/top.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin: auto;
+	padding: 0px;
+}
+#header {
+	height: 42px;
+	width: 1000px;
+	margin: auto;
+	padding: 0px;
+	background-image: url(../images/top_up.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#tab1 {
+	background-color: #FFFFFF;
+	height: auto;
+	width: 1000px;
+	padding: 0px;
+	border: thin solid #63F;
+	margin-right: auto;
+	margin-left: auto;
+}
+#tab1 #gas {
+	height: 20px;
+}
+
+#tab1 #tab2 {
+	background-color: #FFFFFF;
+	height: auto;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	border: thin solid #00C;
+	margin-top: 15px;
+}
+#tab1 #tab_top h3 {
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+	color: #009;
+}
+#tab1 #tab2 #left {
+	height: 590px;
+	width: 320px;
+	float: left;
+	border: 2px solid #CCC;
+}
+#tab1 #tab2 #right {
+	height: 590px;
+	width: 650px;
+	float: right;
+	border: 2px solid #CCC;
+}
+#tab1 #tab2 #right h3 {
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #FFF;
+	background-color: #03C;
+}
+
+#tab1 #tab_top {
+	height: 30px;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	border: thin solid #00C;
+	background-image: url(../images/navbk.png);
+	background-repeat: repeat-x;
+	background-position: center;
+}
+#tab1 #tab2 #left h3 {
+	height: 55px;
+	background-color: #FFF;
+	line-height: 55px;
+	text-align: center;
+	color: #00C;
+	font-weight: bolder;
+}
+#tab1 #tab2 #left h4 {
+	background-color: #3FF;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #00C;
+}
+#tab1 #tab2 #left ol li {
+	background-color: #FFF;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	font-weight: bolder;
+}
+
+#tab1 #tab2 #left h1 {
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+	color: #000;
+	width: 310px;
+	border: 3px solid #0CF;
+	margin: auto;
+}
+
+#tab1 #tab_top a {
+	display: inline;
+}
+#tab1 #tab2 table tr td {
+	text-align: center;
+}
+
+#middle {
+	margin: auto;
+	height: 1010px;
+	width: 1000px;
+	background-color: #ffffff;
+}
+#bottom .gap {
+	margin: auto;
+	height: 10px;
+	width: 1000px;
+}
+#bottom .bottomtitle {
+	height: 110px;
+	width: 1000px;
+	background-color: #1c64d8;
+	font-size: 12px;
+	color: #FFF;
+	text-align: center;
+}
+#bottom .bottomnav ul {
+	list-style-type: none;
+	padding: 0px;
+	height: 30px;
+	width: 500px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: center;
+}
+#bottom .bottomnav ul li {
+	float: left;
+	font-size: 14px;
+	color: #000;
+	text-align: center;
+	line-height: 30px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#bottom .bottomnav {
+	background-color: #d3d3d3;
+	height: 30px;
+	width: 1000px;
+}
+#bottom .bottomnav ul li a {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	color: #000;
+	text-decoration: none;
+}
+#bottom .bottomnav ul li a:hover {
+	color: #F6f6f6;
+	text-decoration: underline;
+}
+
+#bottom {
+	margin: auto;
+	height: 180px;
+	width: 1000px;
+}
+#top .shiyan {
+	margin-top: 165px;
+	height: 40px;
+	background-image: url(../images/000000.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#top .shiyan2 {
+	margin-bottom: 0px;
+	margin-top: 165px;
+}
+#top table {
+	height: 40px;
+	margin-top: 165px;
+	background-image: url(../images/000000.jpg);
+}
+#middle #left {
+	height: 712px;
+	width: 250px;
+	float: left;
+	background-color: #fff;
+	padding: 0px;
+	background-image: url(../images/01111.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#middle #gap {
+	height: 600px;
+	width: 17px;
+	float: left;
+	background-color: #efefef;
+}
+.a1 #middle #midfoot #colee_left {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.a1 #forlogin form table tr td table tr td table tr td img {
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	width: 20px;
+}
+
+form#login label {
+	display:block;
+	padding-top:12px;
+	text-indent:10px;
+}
+form#login label input.text {
+	border:1px dashed #333;
+	width:160px;
+	height:19px;
+	background:#fff;
+}
+form#login label input.yzm {
+	width:60px;
+}
+form#login input.submit {
+	width:60px;
+	height:19px;
+	border:1px dashed #333;
+	background:#fff;
+	cursor:pointer;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 100px;
+}
+#top_up {
+	height: 20px;
+	background-color: #FFF;
+	width: 100%;
+}
+.a1 #middle #midmid1 #midright h3 {
+	background-color: #1c64d8;
+	height: 30px;
+	width: 358px;
+	margin: 0px;
+	color: #00F;
+}
+
