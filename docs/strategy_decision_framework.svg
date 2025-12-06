@@ -1,0 +1,94 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1100' height='720' viewBox='0 0 1100 720'>
+  <defs>
+    <marker id='arrow' viewBox='0 0 10 10' refX='8' refY='5' markerWidth='6' markerHeight='6' orient='auto-start-reverse'>
+      <path d='M 0 0 L 10 5 L 0 10 z' fill='#3c4043'/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "DejaVu Sans", Arial, sans-serif; fill: #202124; font-size: 14px; }
+    .label { font-size: 13px; }
+    .subtitle { font-size: 12px; fill: #5f6368; }
+    .arrow { stroke: #3c4043; stroke-width: 2; fill: none; marker-end: url(#arrow); }
+    .box { stroke: #1b1f23; stroke-width: 2; rx: 12; ry: 12; }
+  </style>
+  <rect class='box' x='60' y='60' width='270' height='150' fill='#d7e3f4' />
+  <text x='195.0' y='86' text-anchor='middle'>
+    <tspan x='195.0' dy='0' text-anchor='middle'>高层规划层</tspan>
+    <tspan x='195.0' dy='20' text-anchor='middle'>（慢思考）</tspan>
+    <tspan x='195.0' dy='20' text-anchor='middle'></tspan>
+    <tspan x='195.0' dy='20' text-anchor='middle'>任务图语义 / 阶段性目标</tspan>
+    <tspan x='195.0' dy='20' text-anchor='middle'>策略模式提示：优先规避/效率</tspan>
+  </text>
+  <rect class='box' x='360' y='60' width='360' height='150' fill='#e7f2d8' />
+  <text x='540.0' y='86' text-anchor='middle'>
+    <tspan x='540.0' dy='0' text-anchor='middle'>高层引导 + 中层门控</tspan>
+    <tspan x='540.0' dy='20' text-anchor='middle'>基于策略模式提示的加权/门控机制</tspan>
+    <tspan x='540.0' dy='20' text-anchor='middle'></tspan>
+    <tspan x='540.0' dy='20' text-anchor='middle'>输入：模式提示 + 观测嵌入</tspan>
+    <tspan x='540.0' dy='20' text-anchor='middle'>输出：策略权重/门控系数</tspan>
+  </text>
+  <rect class='box' x='60' y='260' width='230' height='180' fill='#f6e8d7' />
+  <text x='175.0' y='286' text-anchor='middle'>
+    <tspan x='175.0' dy='0' text-anchor='middle'>环境观测 + 短期记忆</tspan>
+    <tspan x='175.0' dy='20' text-anchor='middle'></tspan>
+    <tspan x='175.0' dy='20' text-anchor='middle'>实时态势、历史轨迹、威胁信息</tspan>
+    <tspan x='175.0' dy='20' text-anchor='middle'>特征编码：LSTM/Transformer</tspan>
+  </text>
+  <rect class='box' x='340' y='240' width='180' height='120' fill='#f9e3d7' />
+  <text x='430.0' y='266' text-anchor='middle'>
+    <tspan x='430.0' dy='0' text-anchor='middle'>模式提示向量</tspan>
+    <tspan x='430.0' dy='20' text-anchor='middle'></tspan>
+    <tspan x='430.0' dy='20' text-anchor='middle'>示例：</tspan>
+    <tspan x='430.0' dy='20' text-anchor='middle'>[防御=0.8,效率=0.2]</tspan>
+  </text>
+  <rect class='box' x='540' y='240' width='180' height='120' fill='#f1e0fb' />
+  <text x='630.0' y='266' text-anchor='middle'>
+    <tspan x='630.0' dy='0' text-anchor='middle'>门控/加权网络</tspan>
+    <tspan x='630.0' dy='20' text-anchor='middle'></tspan>
+    <tspan x='630.0' dy='20' text-anchor='middle'>MLP / 门控注意力</tspan>
+    <tspan x='630.0' dy='20' text-anchor='middle'>σ(W·x+b) → α_i</tspan>
+  </text>
+  <rect class='box' x='340' y='380' width='420' height='210' fill='#dfe8f5' />
+  <text x='550.0' y='406' text-anchor='middle'>
+    <tspan x='550.0' dy='0' text-anchor='middle'>轻量策略模型库</tspan>
+    <tspan x='550.0' dy='20' text-anchor='middle'></tspan>
+    <tspan x='550.0' dy='20' text-anchor='middle'>· 区域覆盖搜索</tspan>
+    <tspan x='550.0' dy='20' text-anchor='middle'>· 目标跟踪与重识别</tspan>
+    <tspan x='550.0' dy='20' text-anchor='middle'>· 编队突防与威胁规避</tspan>
+    <tspan x='550.0' dy='20' text-anchor='middle'>· 物资投送与补给</tspan>
+    <tspan x='550.0' dy='20' text-anchor='middle'>· 巡航与边界警戒</tspan>
+  </text>
+  <rect class='box' x='800' y='300' width='230' height='170' fill='#f2d7ee' />
+  <text x='915.0' y='326' text-anchor='middle'>
+    <tspan x='915.0' dy='0' text-anchor='middle'>策略执行 / 动作输出</tspan>
+    <tspan x='915.0' dy='20' text-anchor='middle'>轨迹生成、任务调度、集群协同</tspan>
+    <tspan x='915.0' dy='20' text-anchor='middle'></tspan>
+    <tspan x='915.0' dy='20' text-anchor='middle'>示例：威胁规避轨迹 +</tspan>
+    <tspan x='915.0' dy='20' text-anchor='middle'>备用补给航线</tspan>
+  </text>
+  <rect class='box' x='340' y='610' width='420' height='90' fill='#f7f3d7' />
+  <text x='550.0' y='636' text-anchor='middle'>
+    <tspan x='550.0' dy='0' text-anchor='middle'>长期知识库 / 策略偏好</tspan>
+    <tspan x='550.0' dy='20' text-anchor='middle'>任务成功率、资源利用率、模式偏好迭代</tspan>
+  </text>
+  <line class='arrow' x1='330' y1='135' x2='360' y2='135' />
+  <text class='label' x='345.0' y='129.0' text-anchor='middle'>策略模式提示</text>
+  <line class='arrow' x1='290' y1='350' x2='340' y2='350' />
+  <text class='label' x='315.0' y='344.0' text-anchor='middle'>观测编码</text>
+  <line class='arrow' x1='520' y1='300' x2='520' y2='360' />
+  <text class='label' x='520.0' y='324.0' text-anchor='middle'>融合</text>
+  <line class='arrow' x1='520' y1='360' x2='520' y2='380' />
+  <text class='label' x='520.0' y='364.0' text-anchor='middle'>α_i 权重/门控</text>
+  <line class='arrow' x1='760' y1='420' x2='800' y2='420' />
+  <text class='label' x='780.0' y='414.0' text-anchor='middle'>加权输出</text>
+  <path class='arrow' d='M 800 420 Q 860 600 700 620' />
+  <text class='label' x='750.0' y='514.0' text-anchor='middle'>执行反馈</text>
+  <line class='arrow' x1='520' y1='610' x2='520' y2='540' />
+  <text class='label' x='520.0' y='569.0' text-anchor='middle'>长期偏好</text>
+  <line class='arrow' x1='450' y1='610' x2='450' y2='560' />
+  <text class='label' x='450.0' y='579.0' text-anchor='middle'>离线预训练</text>
+  <line class='arrow' x1='590' y1='610' x2='590' y2='560' />
+  <text class='label' x='590.0' y='579.0' text-anchor='middle'>在线微调</text>
+  <text class='subtitle' x='750' y='120' text-anchor='middle'>案例：高层提示‘优先规避’，门控网络对威胁规避策略赋予高权重，对效率优先的补给/巡航策略降低权重；若任务偏好调整，则权重随之更新。</text>
+  <text class='subtitle' x='750' y='140' text-anchor='middle'>门控可采用σ/Softmax归一化；注意力可用于多策略加权求和。</text>
+</svg>
