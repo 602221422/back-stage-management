@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4a5568" />
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1100" height="700" fill="white" />
+  <path d="M 610.0 140 C 610.0 155.0, 250.0 155.0, 250.0 190" stroke="#4a5568" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+<path d="M 610.0 140 C 610.0 155.0, 580.0 155.0, 580.0 190" stroke="#4a5568" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+<path d="M 610.0 140 C 610.0 155.0, 910.0 155.0, 910.0 190" stroke="#4a5568" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+<path d="M 250.0 280 C 250.0 300.0, 250.0 300.0, 250.0 340" stroke="#4a5568" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+<path d="M 250.0 280 C 250.0 355.0, 240.0 355.0, 240.0 450" stroke="#4a5568" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+<path d="M 250.0 280 C 250.0 410.0, 240.0 410.0, 240.0 560" stroke="#4a5568" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+<path d="M 580.0 280 C 580.0 300.0, 580.0 300.0, 580.0 340" stroke="#4a5568" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+<path d="M 580.0 280 C 580.0 355.0, 570.0 355.0, 570.0 450" stroke="#4a5568" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+<path d="M 580.0 280 C 580.0 410.0, 560.0 410.0, 560.0 560" stroke="#4a5568" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+<path d="M 910.0 280 C 910.0 300.0, 900.0 300.0, 900.0 340" stroke="#4a5568" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+<path d="M 910.0 280 C 910.0 355.0, 900.0 355.0, 900.0 450" stroke="#4a5568" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+<path d="M 910.0 280 C 910.0 410.0, 900.0 410.0, 900.0 560" stroke="#4a5568" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+  <rect x="450" y="40" rx="12" ry="12" width="320" height="100" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2" />
+<text x="610.0" y="80.0" text-anchor="middle" fill="#1a202c" font-family=""Noto Sans", "Microsoft YaHei", sans-serif" font-size="16"><tspan x="610.0" dy="1.2em" font-weight="600">语义驱动的</tspan><tspan x="610.0" dy="1.2em" font-weight="600">无人机集群研究框架</tspan></text>
+<rect x="120" y="190" rx="12" ry="12" width="260" height="90" fill="#e8f2ff" stroke="#2b6cb0" stroke-width="2" />
+<text x="250.0" y="225.0" text-anchor="middle" fill="#1a202c" font-family=""Noto Sans", "Microsoft YaHei", sans-serif" font-size="16"><tspan x="250.0" dy="1.2em" font-weight="600">语义驱动的具身</tspan><tspan x="250.0" dy="1.2em" font-weight="600">任务建模</tspan></text>
+<rect x="450" y="190" rx="12" ry="12" width="260" height="90" fill="#e8f2ff" stroke="#2b6cb0" stroke-width="2" />
+<text x="580.0" y="225.0" text-anchor="middle" fill="#1a202c" font-family=""Noto Sans", "Microsoft YaHei", sans-serif" font-size="16"><tspan x="580.0" dy="1.2em" font-weight="600">记忆增强的长时序</tspan><tspan x="580.0" dy="1.2em" font-weight="600">分层决策</tspan></text>
+<rect x="780" y="190" rx="12" ry="12" width="260" height="90" fill="#e8f2ff" stroke="#2b6cb0" stroke-width="2" />
+<text x="910.0" y="225.0" text-anchor="middle" fill="#1a202c" font-family=""Noto Sans", "Microsoft YaHei", sans-serif" font-size="16"><tspan x="910.0" dy="1.2em" font-weight="600">异构集群的分布式</tspan><tspan x="910.0" dy="1.2em" font-weight="600">协同决策</tspan></text>
+<rect x="120" y="340" rx="12" ry="12" width="260" height="80" fill="#fdf6b2" stroke="#b7791f" stroke-width="2" />
+<text x="250.0" y="370.0" text-anchor="middle" fill="#1a202c" font-family=""Noto Sans", "Microsoft YaHei", sans-serif" font-size="16"><tspan x="250.0" dy="1.2em" font-weight="600">场景-行为原子-</tspan><tspan x="250.0" dy="1.2em" font-weight="600">控制指令统一建模</tspan></text>
+<rect x="120" y="450" rx="12" ry="12" width="240" height="70" fill="#fdf6b2" stroke="#b7791f" stroke-width="2" />
+<text x="240.0" y="475.0" text-anchor="middle" fill="#1a202c" font-family=""Noto Sans", "Microsoft YaHei", sans-serif" font-size="16"><tspan x="240.0" dy="1.2em" font-weight="600">语义-状态对齐</tspan><tspan x="240.0" dy="1.2em" font-weight="600">与情境校验</tspan></text>
+<rect x="120" y="560" rx="12" ry="12" width="240" height="70" fill="#fdf6b2" stroke="#b7791f" stroke-width="2" />
+<text x="240.0" y="585.0" text-anchor="middle" fill="#1a202c" font-family=""Noto Sans", "Microsoft YaHei", sans-serif" font-size="16"><tspan x="240.0" dy="1.2em" font-weight="600">可组合行为原子库</tspan><tspan x="240.0" dy="1.2em" font-weight="600">支持群体协同</tspan></text>
+<rect x="450" y="340" rx="12" ry="12" width="260" height="80" fill="#c6f6d5" stroke="#2f855a" stroke-width="2" />
+<text x="580.0" y="370.0" text-anchor="middle" fill="#1a202c" font-family=""Noto Sans", "Microsoft YaHei", sans-serif" font-size="16"><tspan x="580.0" dy="1.2em" font-weight="600">多时间尺度分层</tspan><tspan x="580.0" dy="1.2em" font-weight="600">（阶段/步/周期）</tspan></text>
+<rect x="450" y="450" rx="12" ry="12" width="240" height="70" fill="#c6f6d5" stroke="#2f855a" stroke-width="2" />
+<text x="570.0" y="475.0" text-anchor="middle" fill="#1a202c" font-family=""Noto Sans", "Microsoft YaHei", sans-serif" font-size="16"><tspan x="570.0" dy="1.2em" font-weight="600">短期记忆 + 长期</tspan><tspan x="570.0" dy="1.2em" font-weight="600">知识库融合</tspan></text>
+<rect x="450" y="560" rx="12" ry="12" width="220" height="70" fill="#c6f6d5" stroke="#2f855a" stroke-width="2" />
+<text x="560.0" y="585.0" text-anchor="middle" fill="#1a202c" font-family=""Noto Sans", "Microsoft YaHei", sans-serif" font-size="16"><tspan x="560.0" dy="1.2em" font-weight="600">策略自蒸馏与</tspan><tspan x="560.0" dy="1.2em" font-weight="600">事件触发刷新</tspan></text>
+<rect x="780" y="340" rx="12" ry="12" width="240" height="80" fill="#ffe4e6" stroke="#c53030" stroke-width="2" />
+<text x="900.0" y="370.0" text-anchor="middle" fill="#1a202c" font-family=""Noto Sans", "Microsoft YaHei", sans-serif" font-size="16"><tspan x="900.0" dy="1.2em" font-weight="600">异构能力建模与</tspan><tspan x="900.0" dy="1.2em" font-weight="600">任务分工</tspan></text>
+<rect x="780" y="450" rx="12" ry="12" width="240" height="70" fill="#ffe4e6" stroke="#c53030" stroke-width="2" />
+<text x="900.0" y="475.0" text-anchor="middle" fill="#1a202c" font-family=""Noto Sans", "Microsoft YaHei", sans-serif" font-size="16"><tspan x="900.0" dy="1.2em" font-weight="600">局部通信协议与</tspan><tspan x="900.0" dy="1.2em" font-weight="600">分布式决策</tspan></text>
+<rect x="780" y="560" rx="12" ry="12" width="240" height="70" fill="#ffe4e6" stroke="#c53030" stroke-width="2" />
+<text x="900.0" y="585.0" text-anchor="middle" fill="#1a202c" font-family=""Noto Sans", "Microsoft YaHei", sans-serif" font-size="16"><tspan x="900.0" dy="1.2em" font-weight="600">自适应任务分配</tspan><tspan x="900.0" dy="1.2em" font-weight="600">兼顾公平效率</tspan></text>
+</svg>
